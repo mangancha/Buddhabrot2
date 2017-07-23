@@ -1,8 +1,8 @@
-buddhabrot2
+Buddhabrot2
 ===========
 This project includes.
 
-* R scripts to render a Buddhabrot (and a Juliabrot) with support for parallel procesing, a 3 channel (RGB) nebulabrot, and a 4 channed (RTYB) nebulabrot.
+* R scripts to render a Buddhabrot (and a Juliabrot) with support for parallel procesing.
 * Shared objects contained in the lib folder, precompiled for 4 platforms (WInx64, Linux, MacOs and Arm7 (Raspberry Pi)). These shared objects are called by the R scripts.
 * The C++ code needed to compile those shared objects using Rcpp (buddhabrot.cpp, xander.cpp, random.cpp) is included in src.
 
