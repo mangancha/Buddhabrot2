@@ -5,6 +5,7 @@ library(doParallel)         # Multithreading support
 library(moments)	          # skewness function
 library(rPython)	          # 16 bit png support
 
+TEST
 
 #### OS Settings ####
 
