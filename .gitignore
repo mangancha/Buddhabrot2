@@ -11,11 +11,13 @@
 *.tar
 *.zip
 *~
+
 # Logs and databases #
 ######################
 *.log
 *.sql
 *.sqlite
+
 # OS generated files #
 ######################
 .DS_Store
@@ -25,13 +27,15 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
 # Other
 ######################
 *~
-.xls
-.xlsx
-.html
-.exe
+*.xls
+*.xlsx
+*.html
+*.exe
+
 # R generated files #
 ######################
 # History files
@@ -41,6 +45,7 @@ Thumbs.db
 # R data files from past sessions
 .Rdata
 .Rproj.user
+
 # Directories        #
 ######################
 old_code/
