@@ -26,9 +26,6 @@ if (OS == "Winx64") {
   OSSO = paste(OS, ".so", sep="")
 }
 
-#Save.Dir = "/home/marino/Dropbox/Fractals/f(R)actal/Buddhab(R)ot/buddhabrot2/objects/"
-#setwd("C:/Users/fernamar/Tmp/Dropbox/Fractals/f(R)actal/Buddhab(R)ot/buddhabrot2")
-
 
 #### Buddhabrot Function ####
 
