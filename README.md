@@ -2,11 +2,12 @@ Buddhabrot2
 ===========
 This project includes.
 
-* R scripts (main folder) to render a Buddhabrot (and a Juliabrot) with support for parallel procesing, calling 
+* R scripts (main folder) to render a Buddhabrot (and a Juliabrot) with support for parallel procesing, calling.
 on C++ shared objects to speed up rendering.
 * Shared objects contained in the lib folder, compiled for 2 platforms (Linux and Arm7 (Raspberry Pi)), 
 with instructions to compile them in Windows and MacOS. These shared objects are called by the R scripts.
 * The C++ code needed to compile those shared objects using Rcpp (buddhabrot.cpp, xander.cpp, random.cpp) is included in src.
+* Additionally it includes a script for a tcltk based GUI.
 
 How to use:
 * Download to a directory of your choosing. 
